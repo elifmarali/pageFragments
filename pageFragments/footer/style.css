@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.socialMedia {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialMedia div {
+    display: inline-flex;
+}
+
+.socialMedia div a {
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    background: #2c3e50;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.socialMedia div a i {
+    font-size: 40px;
+    color: #fff;
+}
+
+.socialMedia .facebook a:hover {
+    background: #4267b2;
+}
+
+.socialMedia .twitter a:hover {
+    background: #1da1f2;
+}
+
+.socialMedia .google a:hover {
+    background: #d34c3d;
+}
+
+
+.socialMedia .instagram a:hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.socialMedia .youtube a:hover {
+    background: #fe0000;
+}
+
+
+.socialMedia a:hover i {
+    transform: scale(1.6) rotate(360deg);
+    transition: transform 0.5s ease;
+}
